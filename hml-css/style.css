@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    font-size: 14pt;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(255, 166, 0),rgb(255, 166, 0),rgb(66, 35, 0))
+}
+h2{
+  color: rgb(255, 255, 255)  
+}
