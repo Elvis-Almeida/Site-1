@@ -5,6 +5,7 @@ body{
     text-align: center; 
     font-size: 30pt;
     background: url(https://img.freepik.com/free-photo/old-wooden-texture-background-vintage_55716-1138.jpg?size=626&ext=jpg);
+    background-size: contain;
 }
 h1{
     font-family: 'Pacifico', cursive;
