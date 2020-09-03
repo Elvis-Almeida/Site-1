@@ -5,7 +5,7 @@ body{
     text-align: center; 
     font-size: 30pt;
     background: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sff392c09dd7b1b9d/backgroundarea/ia251b285e7db77b6/version/1552565632/image.jpg&quot);
-    background-size: contain;
+    background-size: 100%;
 }
 h1{
     font-family: 'Pacifico', cursive;
