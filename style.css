@@ -1,44 +1,55 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 body{
     text-align: center; 
-    font-size: 30pt;
+    font-size: 2em;
     background: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sff392c09dd7b1b9d/backgroundarea/ia251b285e7db77b6/version/1552565632/image.jpg&quot);
     background-size: 100%;
 }
 h1{
     font-family: 'Pacifico', cursive;
-    color: rgb(255, 235, 198)
+    color: rgb(255, 235, 198);
 }
 h2{
-    color: rgb(255, 197, 136)
+    font-family: 'Bree Serif', sans-serif;
+    color: rgb(255, 197, 136);
 }  
 p{
     font-weight: bold;
     font-style: initial;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 30pt;
-    color: rgb(255, 197, 136)  
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 1em;
+    color: rgb(255, 197, 136);
 }
 div{
     font-weight: bold;
     font-style: initial;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 30pt;
-    color: rgb(255, 197, 136)  
+    font-family: 'Bree Serif', sans-serif;
+    color: rgb(255, 197, 136);  
 }
 div > p {
     display: none;
+    font-size: 2em;
 }
 div:hover > p {
     display: block;
-    font-size: 40pt;
-}
-.hehe{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
 }
 img{
-    width: 50%;
+    width: 30%;
     height: auto;
+}
+a{
+    font-weight: bold;
+    font-style: initial; 
+    text-decoration: none;
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 1em;
+    color: rgb(255, 214, 169);
+      
+}
+a:hover{
+    color: yellow;
 }
